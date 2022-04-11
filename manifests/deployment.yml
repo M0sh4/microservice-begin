@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: moshnmicroservicebegin 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: moshnmicroservicebegin
+  template:
+    metadata:
+      labels:
+        app: moshnmicroservicebegin 
+    spec:
+      containers:
+        - name: moshnmicroservicebegin 
+          image: moshincontainer.azurecr.io/moshnmicroservicebegin
+          ports:
+          - containerPort: 82
