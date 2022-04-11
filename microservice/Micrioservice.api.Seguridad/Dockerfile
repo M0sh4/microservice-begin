@@ -6,7 +6,7 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
-COPY ["Micrioservice.api.Seguridad/Microservice.api.Seguridad.csproj", "Micrioservice.api.Seguridad/"]
+COPY ["Microservice.api.Seguridad.csproj", "Micrioservice.api.Seguridad/"]
 RUN dotnet restore "Micrioservice.api.Seguridad/Microservice.api.Seguridad.csproj"
 COPY . .
 WORKDIR "/src/Micrioservice.api.Seguridad"
