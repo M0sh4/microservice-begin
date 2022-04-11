@@ -18,8 +18,8 @@ namespace Micrioservice.api.Seguridad
     {
         public static void Main(string[] args)
         {
-            //CreateHostBuilder(args).Build().Run();
-            var hostServer = CreateHostBuilder(args).Build();
+            CreateHostBuilder(args).Build().Run();
+            /*var hostServer = CreateHostBuilder(args).Build();
             using (var contexto = hostServer.Services.CreateScope())
             {
                 var services = contexto.ServiceProvider;
@@ -35,7 +35,7 @@ namespace Micrioservice.api.Seguridad
                     logging.LogError(ex, "error cuando registra usuario");
                 }
                 hostServer.Run();
-            }
+            }*/
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

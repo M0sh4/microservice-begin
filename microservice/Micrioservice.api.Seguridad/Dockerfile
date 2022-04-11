@@ -6,7 +6,7 @@ ENV ASPNETCORE_URLS=http://+:80
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0-focal AS build
 WORKDIR /src
-COPY ["microservice/Micrioservice.api.Seguridad/Microservice.api.Seguridad.csproj", "microservice/Micrioservice.api.Seguridad/"]
+COPY ["microservice/Microservice.api.Seguridad/Microservice.api.Seguridad.csproj", "microservice/Microservice.api.Seguridad/"]
 RUN dotnet restore "microservice/Micrioservice.api.Seguridad/Microservice.api.Seguridad.csproj"
 COPY . .
 WORKDIR "/src/microservice/Micrioservice.api.Seguridad"
