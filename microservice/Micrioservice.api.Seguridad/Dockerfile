@@ -18,4 +18,6 @@ RUN dotnet publish "Microservice.api.Seguridad.csproj" -c Release -o /app/publis
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Microservice.api.Seguridad.dll"]
+ENTRYPOINT ["dotnet"]
+
+CMD ["/bin/Debug/net5.0/Micrioservice.api.Seguridad.dll"]
