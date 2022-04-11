@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\renzo\\Desarrollador\\Github\\microservice-begin-vscode\\microservice-begin\\microservice\\Micrioservice.api.Seguridad\\Microservice.api.Seguridad.csproj",
+  "FilePath": "d:\\renzo\\Desarrollador\\Github\\microservice-begin-vscode\\microservice-begin\\microservice\\Microservice.api.GatewayMoshin\\Microservice.api.GatewayMoshin.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15616,7 +15616,7 @@
     ],
     "CSharpLanguageVersion": 900
   },
-  "RootNamespace": "Microservice.api.Seguridad",
+  "RootNamespace": "Microservice.api.GatewayMoshin",
   "Documents": [],
   "SerializationFormat": "0.2"
 }
