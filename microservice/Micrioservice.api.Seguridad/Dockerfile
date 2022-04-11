@@ -1,19 +1,19 @@
-FROM mcr.microsoft.com/dotnet/aspnet:5.0-focal AS base
+#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
+
+FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS base
 WORKDIR /app
 EXPOSE 80
 
-ENV ASPNETCORE_URLS=http://+:80
-
-FROM mcr.microsoft.com/dotnet/sdk:5.0-focal AS build
+FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
-COPY ["microservice/Microservice.api.Seguridad/Microservice.api.Seguridad.csproj", "microservice/Microservice.api.Seguridad/"]
-RUN dotnet restore "microservice/Micrioservice.api.Seguridad/Microservice.api.Seguridad.csproj"
+COPY ["Micrioservice.api.Seguridad/Microservice.api.Seguridad.csproj", "Micrioservice.api.Seguridad/"]
+RUN dotnet restore "Micrioservice.api.Seguridad/Microservice.api.Seguridad.csproj"
 COPY . .
-WORKDIR "/src/microservice/Micrioservice.api.Seguridad"
+WORKDIR "/src/Micrioservice.api.Seguridad"
 RUN dotnet build "Microservice.api.Seguridad.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "Microservice.api.Seguridad.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "Microservice.api.Seguridad.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app

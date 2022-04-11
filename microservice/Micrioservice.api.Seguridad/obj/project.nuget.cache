@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uhD3X4EJnAKRnDBFf/IUnxB1vmtAO2wa/8UmkZoLcqGBPuzAKjRj5xfjNdgOSDgKPYNB9daa76UlhhVyX7GyfA==",
+  "dgSpecHash": "H/zIJQB4tWYKYaWcBHbQ+UzaZeSDykBLg3+HGnHdErJrwTcHpq5txViw2NqlF3gCSGwOD4jsM2FDxaHdO62oLQ==",
   "success": true,
   "projectFilePath": "D:\\renzo\\Desarrollador\\Github\\microservice-begin\\microservice\\Micrioservice.api.Seguridad\\Microservice.api.Seguridad.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,7 @@
     "C:\\Users\\distr\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.17.0\\microsoft.identitymodel.tokens.6.17.0.nupkg.sha512",
     "C:\\Users\\distr\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\distr\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\distr\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\distr\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\distr\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\distr\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",

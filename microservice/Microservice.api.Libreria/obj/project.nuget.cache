@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jpnna9CIBv2/rvUAgXOszEuJwY94cENaqZ2XDSdM/ACQyUUgnWoCkRXqaYZMYDhmGL0G214Fvtq1XX6nPwWwkg==",
+  "dgSpecHash": "kRsx4qdypptZ/qbOKm9FoXZwxklMM+8FSCYFm0QEQkJ1GXgJdMjfOPbtMH6v5cqVlkp6OZI8czEq3i6LSXcm2Q==",
   "success": true,
   "projectFilePath": "D:\\renzo\\Desarrollador\\Github\\microservice-begin\\microservice\\Microservice.api.Libreria\\Microservice.api.Libreria.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\distr\\.nuget\\packages\\dnsclient\\1.6.0\\dnsclient.1.6.0.nupkg.sha512",
     "C:\\Users\\distr\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\distr\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\distr\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\distr\\.nuget\\packages\\mongodb.bson\\2.15.0\\mongodb.bson.2.15.0.nupkg.sha512",
     "C:\\Users\\distr\\.nuget\\packages\\mongodb.driver\\2.15.0\\mongodb.driver.2.15.0.nupkg.sha512",

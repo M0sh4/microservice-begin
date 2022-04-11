@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cyrXTQ4crsys6ro1o8yBM0LOjHqk1JuryB3+UdrD/XLVTR5ClovXIYsk+X1xWWog1LoVaZnnThvhBnCtlB3xEA==",
+  "dgSpecHash": "B4i17o9cyCjidpiZ6s6SKVuU2IZk1rfvQswGVoohR62T8cvkq2uYANSMt057MPK2M3EDjMcXMBJUc3VHhYXydQ==",
   "success": true,
   "projectFilePath": "D:\\renzo\\Desarrollador\\Github\\microservice-begin\\microservice\\Microservice.api.GatewayMoshin\\Microservice.api.GatewayMoshin.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\distr\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.7.1\\microsoft.identitymodel.protocols.6.7.1.nupkg.sha512",
     "C:\\Users\\distr\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.7.1\\microsoft.identitymodel.protocols.openidconnect.6.7.1.nupkg.sha512",
     "C:\\Users\\distr\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.7.1\\microsoft.identitymodel.tokens.6.7.1.nupkg.sha512",
+    "C:\\Users\\distr\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\distr\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\distr\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\distr\\.nuget\\packages\\ocelot\\16.0.2\\ocelot.16.0.2.nupkg.sha512",
