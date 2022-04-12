@@ -9,6 +9,10 @@ WORKDIR /src
 COPY ["Microservice.api.Seguridad.csproj", "./"]
 RUN dotnet restore "Microservice.api.Seguridad.csproj"
 COPY . .
+WORKDIR "/src/Micrioservice.api.Seguridad"
+RUN dotnet build "Microservice.api.Seguridad.csproj" -c Release -o /app/build
+
+FROM build AS publish
 RUN dotnet publish "Microservice.api.Seguridad.csproj" -c Release -o /app/publish
 
 FROM base AS final
