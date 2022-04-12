@@ -16,4 +16,4 @@ spec:
         - name: moshnmicroservicebegin 
           image: moshincontainer.azurecr.io/moshnmicroservicebegin
           ports:
-          - containerPort: 82
+          - containerPort: 80
